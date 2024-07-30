@@ -1,45 +1,56 @@
-# whoIsThat
+# Who's That Pokémon?
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to "Who's That Pokémon?", a fun and interactive game where players guess the Pokémon based on their silhouette! This application is built with Vue.js using the Composition API, styled with Tailwind CSS, and leverages the PokéAPI to fetch Pokémon data.
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [License](#license)
 
-## Type Support for `.vue` Imports in TS
+## Demo
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+You can check out a live demo of the application [here](https://whoisthatpokemon-ccvj.netlify.app/).
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Guess the Pokémon based on its silhouette
+- Fetches data dynamically from the PokéAPI
+- Responsive design with Tailwind CSS
 
-## Project Setup
+## Technologies
 
-```sh
-npm install
-```
+- **Vue.js**: JavaScript framework for building user interfaces, using the Composition API for more flexible code organization.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **PokéAPI**: Free RESTful API for Pokémon data.
 
-### Compile and Hot-Reload for Development
+## Installation
 
-```sh
-npm run dev
-```
+1. **Clone the repository:**
 
-### Type-Check, Compile and Minify for Production
+    ```bash
+    git clone https://github.com/yourusername/whos-that-pokemon.git
+    cd whos-that-pokemon
+    ```
 
-```sh
-npm run build
-```
+2. **Install dependencies:**
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+    ```bash
+    npm install
+    ```
 
-```sh
-npm run test:unit
-```
+3. **Run the development server:**
 
-### Lint with [ESLint](https://eslint.org/)
+    ```bash
+    npm run serve
+    ```
 
-```sh
-npm run lint
-```
+    The application will be available at `http://localhost:8080`.
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
