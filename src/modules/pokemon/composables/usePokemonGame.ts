@@ -15,7 +15,7 @@ export const usePokemonGame = () => {
   const isLoading = computed(() => pokemons.value.length === 0);
 
   const getPokemons = async (): Promise<Pokemon[]> => {
-    const response = await pokemonApi.get<PokemonListResponse>('/?limit=10000');
+    const response = await pokemonApi.get<PokemonListResponse>('/?limit=250');
 
     const pokemonsArray = response.data.results.map((pokemon) => {
       const urlParts = pokemon.url.split('/');
