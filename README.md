@@ -7,7 +7,6 @@ Welcome to "Who's That Pokémon?", a fun and interactive game where players gues
 - [Demo](#demo)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Installation](#installation)
 - [License](#license)
 
 ## Demo
@@ -25,29 +24,6 @@ You can check out a live demo of the application [here](https://whoisthatpokemon
 - **Vue.js**: JavaScript framework for building user interfaces, using the Composition API for more flexible code organization.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 - **PokéAPI**: Free RESTful API for Pokémon data.
-
-## Installation
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/yourusername/whos-that-pokemon.git
-    cd whos-that-pokemon
-    ```
-
-2. **Install dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-3. **Run the development server:**
-
-    ```bash
-    npm run serve
-    ```
-
-    The application will be available at `http://localhost:8080`.
 
 
 ## License
